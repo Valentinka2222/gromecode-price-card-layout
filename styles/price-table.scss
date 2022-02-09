@@ -1,0 +1,31 @@
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-black;
+  width: 1440px;
+  height: 1000px;
+  margin-top: 109px;
+}
+.table__caption {
+  position: fixed;
+  top: 90px;
+}
+.price-table {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  & > section:nth-child(2) > .price-card__price {
+    background-color: $color-blue;
+  }
+  & > section:nth-child(2) > .price-card__order-btn {
+    background-color: $color-blue;
+  }
+  & > section:nth-child(3) > .price-card__price {
+    background-color: $color-orange;
+  }
+  & > section:nth-child(3) > .price-card__order-btn {
+    background-color: $color-orange;
+  }
+}
