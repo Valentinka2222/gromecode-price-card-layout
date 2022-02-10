@@ -100,6 +100,7 @@ html {
 }
 .price-card__options-list_item {
   width: 100%;
+  height: 50px;
   display: inline-block;
 }
 .price-card__options-list_item:nth-child(odd) {
@@ -132,6 +133,8 @@ html {
 }
 
 .checkmark-symbol {
+  width: 15px;
+  height: 13px;
   margin: 18px 22px 19px;
   position: absolute;
 }
