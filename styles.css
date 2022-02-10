@@ -35,13 +35,10 @@ html {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #141b1c;
   width: 1440px;
   height: 1000px;
-  margin-top: 109px;
+  padding-top: 97px;
 }
 
 .price-table {
@@ -56,6 +53,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
   margin-right: 18px;
   padding-top: 33px;
   padding-bottom: 40px;
