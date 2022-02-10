@@ -60,6 +60,7 @@
 }
 
 .price-card__description {
+  font-size: 15px;
   padding-bottom: 40px;
   position: relative;
   text-align: center;
@@ -88,6 +89,8 @@
   height: 40px;
   background-color: #5bb189;
   border-radius: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
   margin: auto;
   margin-bottom: 0;
 }
