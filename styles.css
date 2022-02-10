@@ -98,11 +98,11 @@ html {
   text-align: center;
   margin: 0 26px;
 }
-.price-card__list_options_item {
+.price-card__options-list_item {
   width: 100%;
   display: inline-block;
 }
-.price-card__list_options_item:nth-child(odd) {
+.price-card__options-list_item:nth-child(odd) {
   background-color: #2a3438;
 }
 .price-card__options_description {
