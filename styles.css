@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.rotated__rectangle {
+.rotated__cut-rectangle {
   text-align: center;
   right: -30px;
   top: 31px;
@@ -21,6 +21,7 @@
   transform: rotate(45deg);
   line-height: 25px;
   font-size: 14px;
+  font-weight: 700;
   width: 147px;
   height: 0;
   position: absolute;
@@ -49,6 +50,7 @@
 }
 
 .price-card__price {
+  line-height: 67px;
   width: 380px;
   height: 105px;
   font-weight: 700;
