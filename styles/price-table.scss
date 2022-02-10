@@ -1,4 +1,4 @@
-.table {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,17 +11,4 @@
 .price-table {
   display: flex;
   flex-direction: row;
-
-  & > section:nth-child(2) > .price-card__price {
-    background-color: $color-blue;
-  }
-  & > section:nth-child(2) > .price-card__order-btn {
-    background-color: $color-blue;
-  }
-  & > section:nth-child(3) > .price-card__price {
-    background-color: $color-orange;
-  }
-  & > section:nth-child(3) > .price-card__order-btn {
-    background-color: $color-orange;
-  }
 }

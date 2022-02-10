@@ -1,20 +1,6 @@
 @import 'variables.scss';
-@import 'card.scss';
-* {
-  box-sizing: border-box;
-}
-html {
-  height: 100%;
-  width: 100%;
-}
-body {
-  background-color: $color-light;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
+
+@import 'common.scss';
 
 @import 'price-table.scss';
-@import 'common.scss';
+@import 'card.scss';
