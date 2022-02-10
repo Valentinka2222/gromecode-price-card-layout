@@ -29,20 +29,22 @@
 .price-card__header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100px;
   height: 64px;
 }
 
 .price-card__title {
-  font-size: 25px;
-  margin: 0 auto;
+  line-height: 43px;
+  font-size: 35px;
+  margin: 0;
+  text-align: center;
   font-weight: 700;
 }
 
 .price-card__title_description {
   font-size: 20px;
+  line-height: 24px;
   font-weight: 300;
 }
 
