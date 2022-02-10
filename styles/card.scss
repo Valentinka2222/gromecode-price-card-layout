@@ -58,8 +58,10 @@
   background-color: $color-light-green;
 }
 .price-card__description {
+  padding-bottom: 40px;
   position: relative;
   text-align: center;
+  margin: 0;
 }
 .price-card__options_item {
   width: 100%;

@@ -60,8 +60,10 @@
 }
 
 .price-card__description {
+  padding-bottom: 40px;
   position: relative;
   text-align: center;
+  margin: 0;
 }
 
 .price-card__options_item {
@@ -124,6 +126,7 @@ body {
 }
 
 .price-table {
+  padding: 115px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
