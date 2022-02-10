@@ -9,6 +9,7 @@
   padding-top: 33px;
   padding-bottom: 40px;
   position: relative;
+  margin-top: -115px;
 }
 
 .rotated__cut-rectangle {
@@ -64,7 +65,6 @@
 .price-card__description {
   font-size: 15px;
   padding-bottom: 40px;
-  position: relative;
   text-align: center;
   margin: 0 26px;
 }
@@ -125,17 +125,9 @@ body {
   margin-top: 109px;
 }
 
-.table__caption {
-  position: fixed;
-  top: 90px;
-}
-
 .price-table {
-  padding: 115px 0;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  position: relative;
 }
 .price-table > section:nth-child(2) > .price-card__price {
   background-color: #3a6ba5;
