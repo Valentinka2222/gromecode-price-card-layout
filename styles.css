@@ -45,8 +45,7 @@ html {
   padding-top: 18px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  padding-left: 132px;
 }
 
 .price-card {
