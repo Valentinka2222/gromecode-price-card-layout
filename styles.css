@@ -106,6 +106,7 @@ html {
   background-color: #2a3438;
 }
 .price-card__options_description {
+  font-size: 15px;
   margin-left: 59px;
 }
 .price-card__order-btn {
