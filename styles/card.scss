@@ -12,15 +12,17 @@
 }
 .rotated__rectangle {
   text-align: center;
-  right: -34px;
-  transform: rotate(48deg);
-  overflow: hidden;
+  right: -29px;
+  top: 31px;
+  border-bottom: 25px solid $color-dark-red;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  transform: rotate(45deg);
   line-height: 25px;
   font-size: 14px;
   width: 147px;
-  height: 25px;
+  height: 0;
   position: absolute;
-  background-color: $color-dark-red;
 }
 
 .price-card__header {
